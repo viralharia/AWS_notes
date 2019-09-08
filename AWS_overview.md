@@ -56,4 +56,31 @@ There are several pricing options for EC2.
     * https://aws.amazon.com/vpc/
 # Elastic Beanstalk
 * Elastic Beanstalks is an orchestration service that allows you to deploy a web application at the touch of a button by spinning up (or provisioning) all of the services that you need to run your application.
-* Elastic Beanstalk can spin up database instances for you, VPCs, security groups, EC2 instances
+* Elastic Beanstalk can spin up database instances for you, VPCs, security groups, EC2 instances.
+****
+# Storage 
+* Amazon Simple Storage Service (Amazon S3)
+* Amazon Simple Storage Service (Amazon S3) Glacier
+
+## Amazon Simple Storage Service (Amazon S3)
+* Amazon Simple Storage Service (or S3) is an object storage system in the cloud.
+* Examples of things that can be stored in it includes - Text documents, Image files, HTML files.
+* There are several use cases for S3, hosting static websites, content delivery, backup and recovery, archiving and big data, application data, and hybrid cloud storage.
+
+### Storage Classes
+* S3 offers several storage classes, which are different data access levels for your data at certain price points.
+    * S3 Standard
+    * S3 Glacier
+    * S3 Glacier Deep Archive
+    * S3 Intelligent-Tiering
+    * S3 Standard Infrequent Access
+    * S3 One Zone-Infrequent Access
+****
+# Database Services
+* DynamoDB
+    * DynamoDB is a NoSQL document database service that is fully managed. Unlike traditional databases, NoSQL databases, are schema-less. Schema-less simply means that the database doesn't contain a fixed (or rigid) data structure.
+* Relational Database Service (RDS)
+* Redshift
+* ElastiCache
+* Neptune
+* Amazon DocumentDB
