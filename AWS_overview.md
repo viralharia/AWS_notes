@@ -54,4 +54,6 @@ There are several pricing options for EC2.
 * Resources:
     * https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
     * https://aws.amazon.com/vpc/
-     
+# Elastic Beanstalk
+* Elastic Beanstalks is an orchestration service that allows you to deploy a web application at the touch of a button by spinning up (or provisioning) all of the services that you need to run your application.
+* Elastic Beanstalk can spin up database instances for you, VPCs, security groups, EC2 instances
