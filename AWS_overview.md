@@ -115,3 +115,51 @@ There are several pricing options for EC2.
     * IAM Group
     * IAM Role
     * Policy
+*  Resources
+    *   https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
+****
+# Networking
+## Route 53
+* Route 53 is a cloud domain name system (DNS) service that has servers distributed around the globe used to translates human-readable names like www.google.com into the numeric IP addresses like 74.125.21.147.
+    * Features
+        * scales automatically to manage spikes in DNS queries
+        * allows you to register a domain name (or manage an existing)
+        * routes internet traffic to the resources for your domain
+        * checks the health of your resources.
+
+## Elastic Load Balancing
+* Elastic Load Balancing automatically distributes incoming application traffic across multiple servers.
+* Elastic Load Balancer is a service that:
+    * Balances load between two or more servers
+    * Stands in front of a web server
+    * Provides redundancy and performance.
+    * Elastic Load Balancing works with EC2 Instances, containers, IP addresses, and Lambda functions.
+    * You can configure Amazon EC2 instances to only accept traffic from a load balancer.
+**** 
+# Simple Notification Service
+* Amazon Simple Notification Service (or SNS) is a cloud service that allows you to send notifications to the users of your applications. SNS allows you to decouple the notification logic from being embedded in your applications and allows notifications to be published to a large number of subscribers.
+* SNS uses a publish/subscribe model.
+SNS can publish messages to Person(Mobile Push, text message, email), other AWS services such as Amazon SQS queues, AWS Lambda functions, and HTTP/S webhooks.
+****
+# Cloud Trail
+* Cloud Trail allows you to audit (or review) everything that occurs in your AWS account. Cloud Trail does this by recording all the AWS API calls occurring in your account and delivering a log file to you.
+* CloudTrail provides event history of your AWS account activity, including:
+    * who has logged in
+    * services that were accessed
+    * actions performed
+    * parameters for the actions
+    * responses returned
+* This includes actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
+****
+# Cloud Watch
+* Cloud Watch is a service that monitors resources and applications that run on AWS by collecting data in the form of logs, metrics, and events.
+* Features
+    * Collect and track metrics
+    * Collect and monitor log files
+    * Set alarms and create triggers to run your AWS resources
+    * React to changes in your AWS resources
+****
+# Cloud Formation
+AWS Cloud Formation allows you to model your entire infrastructure in a text file template allowing you to provision AWS resources based on the scripts you write.
+* Cloud Formation templates are written using JSON or YAML.
+* You can still individually manage AWS resources that are part of a CloudFormation stack.
