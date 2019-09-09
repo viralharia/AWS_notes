@@ -80,7 +80,38 @@ There are several pricing options for EC2.
 * DynamoDB
     * DynamoDB is a NoSQL document database service that is fully managed. Unlike traditional databases, NoSQL databases, are schema-less. Schema-less simply means that the database doesn't contain a fixed (or rigid) data structure.
 * Relational Database Service (RDS)
+    * RDS (or Relational Database Service) is a service that aids in the administration and management of databases. RDS assists with database administrative tasks that include upgrades, patching, installs, backups, monitoring, performance checks, security, etc.
+    * Features
+        * failover
+        * backups
+        * restore
+        * encryption
+        * security
+        * monitoring
+        * data replication
+        * scalability
 * Redshift
+    * Redshift is a cloud data warehousing service to help companies manage big data. Redshift allows you to run fast queries against your data using SQL, ETL, and BI tools. Redshift stores data in a column format to aid in fast querying.
 * ElastiCache
 * Neptune
 * Amazon DocumentDB
+****
+# Cloud Front
+* CloudFront is used as a global content delivery network (CDN). Cloud Front speeds up the delivery of your content through Amazon's worldwide network of mini-data centers called Edge Locations.
+* CloudFront ensures that end-user requests are served from the closest edge location.
+* Cache control headers determine how frequently CloudFront needs to check the origin for an updated version your file.
+* The maximum size of a single file that can be delivered through Amazon CloudFront is 20 GB.
+* CloudFront works with other AWS services, as shown below, as an origin source for your application:
+    * Amazon S3
+    * Elastic Load Balancing
+    * Amazon EC2
+    * Lambda@Edge
+    * AWS sheild
+****
+# Identity & Access Management
+* Identity & Access Management (IAM) is an AWS service that allows us to configure who can access our AWS account, services, or even applications running in our account. IAM is a global service and is automatically available across ALL regions.
+* Security Concepts
+    * User
+    * IAM Group
+    * IAM Role
+    * Policy
