@@ -66,6 +66,7 @@ There are several pricing options for EC2.
 * Amazon Simple Storage Service (or S3) is an object storage system in the cloud.
 * Examples of things that can be stored in it includes - Text documents, Image files, HTML files.
 * There are several use cases for S3, hosting static websites, content delivery, backup and recovery, archiving and big data, application data, and hybrid cloud storage.
+* **_SignedURLs_** allow clients to send and receive data by directly communicating with the file store. This saves the server from using its bandwidth to serve as the intermediary that transmits data to and from the client. This is faster for clients as well.
 
 ### Storage Classes
 * S3 offers several storage classes, which are different data access levels for your data at certain price points.
@@ -114,7 +115,10 @@ There are several pricing options for EC2.
     * User
     * IAM Group
     * IAM Role
+        * IAM user role: an IAM role can give a user a set of permissions to access one or more services.
+        * IAM service role: an IAM role gives a service a set of permissions to access one or more services   
     * Policy
+
 *  Resources
     *   https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
 ****
