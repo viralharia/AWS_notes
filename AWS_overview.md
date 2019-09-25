@@ -119,6 +119,9 @@ There are several pricing options for EC2.
         * IAM service role: an IAM role gives a service a set of permissions to access one or more services   
     * Policy
 
+## Access keys
+* You use access keys to sign programmatic requests that you make to AWS if you use AWS CLI commands (using the SDKs) or using AWS API operations.
+* Access keys consist of two parts: an access key ID (for example, AKIAIOSFODNN7EXAMPLE) and a secret access key (for example, wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY).
 *  Resources
     *   https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
 ****
