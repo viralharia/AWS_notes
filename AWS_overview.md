@@ -133,6 +133,7 @@ There are several pricing options for EC2.
         * allows you to register a domain name (or manage an existing)
         * routes internet traffic to the resources for your domain
         * checks the health of your resources.
+  * This service allows you to set up routing profiles for your domain names and direct traffic to services inside of and external to AWS.
 
 ## Elastic Load Balancing
 * Elastic Load Balancing automatically distributes incoming application traffic across multiple servers.
